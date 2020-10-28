@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   }
 });
 
-export default HomeScreen = () => {
+export default HomeScreen = ({navigation}) => {
   const [articles, setArticles] = useState([]);
   useEffect(() => {
     alert(Constants.manifest.extra.newsApiKey);
@@ -60,6 +60,7 @@ export default HomeScreen = () => {
             imageUrl={item.urlToImage}
             title={item.title}
             author={item.author}
+            onPress={() => navigation.navigate('Article', {article: item})}
           />
         )}
         keyExtractor={(item, index) => index.toString()}
