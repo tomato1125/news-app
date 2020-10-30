@@ -1,7 +1,7 @@
 # スマートフォン用のアプリケーションを作成しました。
 
-EXPO、iOS simulater, Android device/emulater を使用して作成
-iOS,Android いずれも対応
+- EXPO、iOS simulater, Android device/emulater を使用して作成
+- iOS,Android いずれも対応
 
 - NEWS.API で最新の国内ニュースを取得できる。
   ![newsApp1](https://user-images.githubusercontent.com/66346042/97659204-c1ecfe80-1ab1-11eb-99a3-0409155d6a5b.gif)
